@@ -20,7 +20,7 @@ jobs:
               # Extract the file path
               filepath=$(dirname "$file")
               # Construct the canonical URL
-              canonical_url="https://your-domain.com$filepath"
+              canonical_url="https://especiales.noticiasrcn.com${filepath#*.}/index.html"
               # Add the canonical link to the HTML file
               sed -i 's|<head>|<head>\n<link rel="canonical" href="'$canonical_url'"/>|' $file
             fi
