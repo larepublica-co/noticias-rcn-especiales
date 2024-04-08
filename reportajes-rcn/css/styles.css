@@ -1,0 +1,191 @@
+body {
+  overflow-x: hidden;
+}
+.bg {
+  height: 100vh;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+p {
+  font-family: Roboto, sans-serif;
+}
+a:hover {
+  text-decoration: none;
+  color: initial;
+}
+.titulo {
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  color: #08232f;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+#tres .titulo {
+  color: #fff;
+}
+#uno {
+  background-image: url("../img/Banner1.jpg");
+}
+.bg-move {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: url("https://html.canalrcn.com/CanalRCN/react/rediseno-nl/img/especial-911/Header_01.jpg")
+    no-repeat center center;
+  background-size: cover;
+  transform: scale(1.1);
+}
+#dos {
+  background-image: url("../img/Banner2.jpg");
+  background-attachment: fixed;
+}
+#dos h5 {
+  color: #7dc14c;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+}
+#dos h4 {
+  color: #2a2a2a;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+}
+#dos p {
+  color: #666;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5;
+}
+#tres {
+  background-image: url(https://html.canalrcn.com/CanalRCN/react/rediseno-nl/img/especial-911/fondo-animacion.jpg);
+  height: auto;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+#cuatro {
+  background: #fff;
+  height: auto;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-attachment: fixed;
+}
+#cuatro h2 {
+  color: #2a2a2a;
+  font-family: Roboto, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+}
+.titulo-videos {
+  margin-bottom: 3rem;
+}
+.grid-uno {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.arrow {
+  width: 5%;
+  opacity: 0.6;
+  margin-left: auto;
+  margin-right: auto;
+}
+.arrow-mobile {
+  width: 10%;
+  opacity: 0.6;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo-desktop img {
+  width: 90%;
+}
+.logo-desktop {
+  padding-top: 17.563rem;
+}
+.logo-mobile img {
+  width: 90%;
+}
+.logo-mobile {
+  padding-top: 14rem;
+}
+.btn-ver-mas {
+  background-color: #1ab445;
+  border: none;
+  color: #fff;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  letter-spacing: 2px;
+  border-radius: 6px;
+}
+.embed-responsive {
+  margin-bottom: 1rem;
+}
+.img-reportaje img {
+  border-radius: 6px;
+}
+.card {
+  background-color: transparent;
+  border: 0;
+}
+.video-nota {
+  overflow: hidden;
+  border-radius: 5px;
+}
+.texto-nota {
+  padding: 0.3rem;
+  margin-top: -10px;
+}
+.nota {
+  min-height: 388px;
+  margin-bottom: 0.5rem;
+}
+#cinco .nota {
+  background-color: #072b40c9;
+  box-shadow: none;
+  border-radius: 0;
+  min-height: 470px;
+  margin-bottom: 0;
+}
+.nota h3 {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  color: #2a2a2a;
+  font-size: 0.95rem;
+}
+.nota p {
+  color: #666;
+  font-size: 0.99rem;
+}
+.nota span {
+  display: block;
+  text-align: center;
+  color: #fff;
+}
+#cinco h3.titulo {
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .logo img {
+    width: 200px;
+  }
+  #dos {
+    display: block;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    height: auto;
+  }
+  #uno {
+    background-image: url("../img/Banner1_Mobile.jpg");
+  }
+}
