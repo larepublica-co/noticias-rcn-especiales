@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - staging
+permissions:
+  contents: write
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -26,7 +28,7 @@ jobs:
           git config --global user.email "obuitrago@larepublica.com.co"
           git config --global user.name "Oscar Buitrago (Actions)"
           git commit -am "Add canonical links"
-          git push origin HEAD:staging
+          git push
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
