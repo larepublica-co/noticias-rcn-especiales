@@ -23,8 +23,8 @@ jobs:
           done
       - name: Commit changes
         run: |
-          git config --local user.email "obuitrago@larepublica.com.co"
-          git config --local user.name "Oscar Buitrago (Actions)"
+          git config --global user.email "obuitrago@larepublica.com.co"
+          git config --global user.name "Oscar Buitrago (Actions)"
           git commit -am "Add canonical links"
           git push origin HEAD:staging
       - name: Configure AWS Credentials
