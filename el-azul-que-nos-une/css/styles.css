@@ -1,5 +1,5 @@
 :root {
-  --padding--container: 80px 0;
+  --padding--container: 65px 0;
   --paragraph--texts: #fff;
   --title--texs: #175183;
 }
@@ -137,7 +137,7 @@ body {
   font-size: 2rem;
   font-weight: 800;
   text-align: right;
-  text-transform: capitalize;
+  
 }
 .agua__paragraph {
   color: var(--paragraph--texts);
@@ -238,6 +238,16 @@ body {
   color: #666666;
   padding: 2%;
 }
+.details .texto-recorrido {
+ width: 100%;
+}
+
+.details .tiktok__title {
+  font-size: 1.8em;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
 
 .texto-recorrido {
   width: 82%;
@@ -278,7 +288,7 @@ body {
 }
 
 .post-img-1 {
-  background-image: url(../img/Unico-cadete-de-San-Andres.jpg);
+  background-image: url(../img/plato.jpg);
   width: 100%;
   height: 200px;
   background-size: cover;
@@ -287,7 +297,7 @@ body {
 }
 
 .post-img-2 {
-  background-image: url(../img/Desplieguevelas.jpg);
+  background-image: url(../img/pausanota.jpg);
   width: 100%;
   height: 200px;
   background-size: cover;
@@ -296,7 +306,7 @@ body {
   }
 
   .post-img-3 {
-    background-image: url(../img/ZarpeBuqueGloria.jpg);
+    background-image: url(../img/oficialarmada.jpg);
     width: 100%;
     height: 200px;
     background-size: cover;
@@ -305,7 +315,7 @@ body {
     }
 
     .post-img-4 {
-      background-image: url(../img/Uno-de-los-mejores-nadadores.jpg);
+      background-image: url(../img/Visitaminiatura.jpg);
       width: 100%;
       height: 200px;
       background-size: cover;
@@ -314,7 +324,7 @@ body {
       }
 
       .post-img-5 {
-        background-image: url(../img/Primeras24horas.jpg);
+        background-image: url(../img/colombianota.jpg);
         width: 100%;
         height: 200px;
         background-size: cover;
@@ -323,7 +333,7 @@ body {
         }
 
         .post-img-6 {
-          background-image: url(../img/Como-se-comunican-los-cadetes.jpg);
+          background-image: url(../img/nochenota.jpg);
           width: 100%;
           height: 200px;
           background-size: cover;
@@ -389,6 +399,10 @@ body {
       background: #a7f9fd;
       box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, .2);
       transform: translateY(-2px);
+    }
+
+    .boton_bitacora {
+      margin-bottom: 42px;
     }
 
     .boton_bitacora .Post-link {
@@ -554,7 +568,7 @@ body {
   margin-top: 0.625rem;
   line-height: 1;
   
-  text-transform: capitalize;
+  
   text-align: center;
 }
 .energia__paragraph {
@@ -673,7 +687,7 @@ body {
   margin-left: auto;
   text-align: right;
   /* margin: 0 0 0 auto; */
-  text-transform: capitalize;
+  
 }
 
 .bosques__paragraph {
@@ -780,7 +794,7 @@ body {
   line-height: 1;
   margin-top: 1.5rem;
   width: 79%;
-  text-transform: capitalize;
+  
 }
 .igualdad__paragraph {
   color: var(--paragraph--texts);
@@ -854,7 +868,7 @@ body {
 /* tiktok*/
 
 .tiktok {
-  background-color: #0066d0;
+  background-color: #ffffff;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -870,7 +884,7 @@ body {
   color: white;
   font-size: 1.1em;
   font-weight: 800;
-  text-transform: capitalize;
+  
 }
 .tiktok__videos {
   max-width: 1800px;
@@ -1344,7 +1358,7 @@ body {
   }
 
   .tiktok {
-    background-color: #0066d0;
+    background-color: #ffffff;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1360,12 +1374,24 @@ body {
 
   /*igualdad-desktop */
 }
-@media (min-width: 1024px) {
-  /* hero -desktop*/
+
+@media (max-width: 768px){
   .tiktok__title {
     font-size: 1.8em;
     width: 60%;
     margin: 0 auto;
+    color: #012d78;
+  }
+}
+  
+
+@media (min-width: 1024px) {
+  /* hero -desktop*/
+  .tiktok__title {
+    font-size: 1.8em;
+    width: 100%;
+    margin: 0 auto;
+    color: #001f79;
   }
   .hero {
     background-image: url(../img/Fondoinicio.jpg);
@@ -2134,7 +2160,8 @@ body {
     display: none;
   }
   header.hero {
-    padding-bottom: 100%;
+    padding-bottom: 0;
+    height: 410px;
   }
 
   .medidascarrusel {
@@ -2178,7 +2205,7 @@ body {
 
 @media screen and (max-width: 375px) {
   .boton_bitacora .Post-link {
-    width: 65% !important;
+    width: 75% !important;
 
   }
 }
@@ -2200,7 +2227,7 @@ body {
 
 @media screen and (max-width: 1920px) {
   .boton_bitacora .Post-link {
-    width: 25%;
+    width: 30%;
 
   }
 }  
@@ -2277,7 +2304,7 @@ body {
     }
 
     .boton_bitacora .Post-link {
-      width: 35%;
+      width: 40%;
     }
 
     /* Tus estilos específicos para iPad mini en orientación retrato aquí */
@@ -2419,7 +2446,7 @@ a{
 
 .slick-arrow{
     border-radius: 30px;
-    background-color: #fff;
+    background-color: #001f79;
     position: absolute;
     z-index: 4;
     width: 48px;
@@ -2435,7 +2462,7 @@ a{
 .slick-arrow svg{
     width: 12px;
     height: 100%;
-    color: rgba(0,0,0,.7);
+    color: rgb(255, 255, 255);
 }
 .slick-prev{
     left: 0px;
@@ -2443,6 +2470,13 @@ a{
 .slick-next{
     right: 0px;
 }
+
+/*Slide ruta*/
+
+
+/*Slide ruta*/
+
+
 
 
 

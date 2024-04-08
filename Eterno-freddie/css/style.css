@@ -1,0 +1,369 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+/* scrool */
+.contenedor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+}
+
+.contenedor section {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  background: linear-gradient(90deg, rgba(56, 55, 55, 0.281) 0%, rgba(15, 15, 15, 0.384) 100%), url('../img/p1.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+
+
+.contenedor section:nth-child(2) {
+  background:linear-gradient(90deg,rgba(15, 15, 15, 0.384) 100% ,rgba(56, 55, 55, 0.281) 0% ), url('../img/p2.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.contenedor section:nth-child(3) {
+ background:linear-gradient(90deg,rgba(15, 15, 15, 0.384) 100% ,rgba(56, 55, 55, 0.281) 0% ),url('../img/p4.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.contenedor section:nth-child(4) {
+  background:linear-gradient(90deg,rgba(15, 15, 15, 0.384) 100% ,rgba(56, 55, 55, 0.281) 0% ), url('../img/p5.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.contenedor section:nth-child(5) {
+  background:linear-gradient(90deg,rgba(15, 15, 15, 0.384) 100% ,rgba(56, 55, 55, 0.281) 0% ), url('../img/p6.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.contenedor section:nth-child(6) {
+  background:linear-gradient(90deg,rgba(15, 15, 15, 0.384) 100% ,rgba(56, 55, 55, 0.281) 0% ), url('../img/p7.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.contenedor section:nth-child(7) {
+  background:linear-gradient(90deg,rgba(15, 15, 15, 0.384) 100% ,rgba(56, 55, 55, 0.281) 0% ),url('../img/corona.png')  center top, url('../img/p8.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.contenedor section .content {
+  max-width: 100%;
+  text-align: center;
+}
+@media (max-width: 425px){
+  #two div img{
+  width: 50vh;
+  height: auto;
+  position: relative;
+  top: 13px;
+  }
+  #two .ver-mas{
+    position: absolute;
+    top: 494px !important;
+  }
+  #five .ver-mas{
+    position: absolute;
+    top: 494px !important;
+  }
+  #five img{
+
+    position: relative;
+    top: 44px !important;
+    }
+}
+
+@media (max-width: 320px){
+  #two div img{
+  width: 40vh;
+  height: auto;
+  position: relative;
+  top: 13px;
+  }
+
+  #tow .blockquote{
+    height: 50%;
+  }
+  #two .ver-mas{
+    position: absolute;
+    top: 482px !important;
+  }
+  #five .ver-mas{
+    position: absolute;
+    top: 478px !important;
+  }
+  #five img{
+
+    position: relative;
+    top: 44px !important;
+    }
+}
+
+
+@media (max-width: 991px)
+{
+  .contenedor {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    transform: none !important;
+  }
+}
+
+/* scrool */
+#two .ver-mas{
+  position: absolute;
+    top: 572px;
+    z-index: 3;
+}
+
+#five .ver-mas{
+  position: absolute;
+  top:  443px;
+  z-index: 4;
+}
+
+#five img{
+
+position: relative;
+top: 130px;
+}
+.btn-ver-mas {
+  background-color: #ec3030;
+  border: none;
+  color: white;
+  padding: 5px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1;
+  border-radius: 20px;
+  letter-spacing: 2px;
+}
+#three p{
+  font-family: 'Abril Fatface', cursive;
+  text-align: left;  
+  color: #ec3030;
+  font-size: 2.8rem;
+  font-weight: normal;
+  line-height: 1;
+  margin: 0;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.226);
+  
+}
+#four p{
+  font-family: 'Abril Fatface', cursive;
+  text-align: left;  
+  color: #ec3030;
+  font-size: 2.8rem;
+  font-weight: normal;
+  line-height: 1;
+  margin: 0;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.226);
+  
+}
+#six p{
+  font-family: 'Abril Fatface', cursive;
+  text-align: left;  
+  color: #ec3030;
+  font-size: 2.8rem;
+  font-weight: normal;
+  line-height: 1;
+  margin: 0;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.226);
+  
+}
+.logo-1{
+  width: 70vh;
+  height: auto;
+}
+@media (max-width:600) {
+  body{
+    overflow-y: auto;
+  }
+}
+@media (max-width: 320px){
+  .logo-1{
+    width: 50vh !important;
+    height: auto !important;
+  }
+  .btn-ver-mas{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 375px){
+  .logo-1{
+    width: 50vh !important;
+    height: auto !important;
+  }
+  .btn-ver-mas{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 425px){
+  .logo-1{
+    width: 60vh;
+    height: auto;
+  }
+  .btn-ver-mas{
+    font-size: 16px;
+  }
+}
+
+/* Blockquote main style */
+.blockquote {
+  position: relative;
+  font-family: 'Barlow Condensed', sans-serif;
+  max-width: 620px;
+  margin: 5vh auto 0 auto;
+  align-self: center;
+}
+
+
+
+/* Blockquote header */
+.blockquote h1 {
+  font-family: 'Abril Fatface', cursive;
+  position: relative; /* for pseudos */
+  color: #ec3030;
+  font-size: 2.8rem;
+  font-weight: normal;
+  line-height: 1;
+  margin: 0;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.226);
+  border: 2px solid #fff;
+  border: solid 2px;
+  border-radius:20px;
+  padding: 25px;
+}
+
+/* Blockquote right double quotes */
+.blockquote h1:after {
+  content:"";
+  position: absolute;
+  border: 2px solid #e74848;
+  border-radius: 0 50px 0 0;
+  width: 60px;
+  height: 60px;
+  bottom: -60px;
+  left: 50px;
+  border-bottom: none;
+  border-left: none;
+  z-index: 3; 
+}
+
+.blockquote h1:before {
+  content:"";
+  position: absolute;
+  width: 80px;
+  
+  bottom: -3px;
+  left: 50px;
+  z-index: 2;
+}
+
+/* increase header size after 600px */
+@media all and (min-width: 600px) {
+  .blockquote h1 {
+      font-size: 3rem;
+      line-height: 1.2;
+ }
+
+ #three p{
+  font-size: 3rem;
+  line-height: 1.2;
+ }
+ #four p{
+  font-size: 3rem;
+  line-height: 1.2;
+ }
+ #six p{
+  font-size: 3rem;
+  line-height: 1.2;
+ }
+
+}
+@media all and (max-width: 600px) {
+  .blockquote h1 {
+    margin-top: 15px;
+      font-size: 1.5rem;
+      line-height: 1.2;
+ }
+ #three p{
+   margin-top: 15px;
+  font-size: 1.5rem;
+  line-height: 1.2;
+ }
+ #four p{
+  margin-top: 15px;
+ font-size: 1.5rem;
+ line-height: 1.2;
+}
+#six p{
+  margin-top: 15px;
+ font-size: 1.5rem;
+ line-height: 1.2;
+}
+}
+
+/* Blockquote subheader */
+.blockquote h4 {
+  position: relative;
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0;
+  padding-top: 15px;
+  z-index: 1;
+  margin-left:150px;
+  padding-left:12px;
+}
+
+
+.blockquote h4:first-letter {
+margin-left:-12px;
+}
+
+.fredy-1{
+  /* position: relative; */
+  /* top: 200px; */
+  height: auto;
+  width: 70vw;
+}
+
+

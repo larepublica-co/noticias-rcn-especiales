@@ -1,0 +1,270 @@
+body {
+  overflow-x: hidden;
+}
+
+.bg {
+  height: 100vh;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+
+p {
+  font-family: "Roboto Slab", serif;
+}
+#dos p {
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}
+a:hover {
+  text-decoration: none;
+  color: initial;
+}
+
+.titulo {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.titulo-notas {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+#tres .titulo {
+  color: #ffffff;
+}
+
+#uno {
+  background-image: url(../img/bg-iota.gif);
+}
+
+/* .bg-move {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      background: url('../img/bg-iota.jpg') no-repeat center center;
+      background-size: cover;
+      transform: scale(1.1);
+   } */
+#dos {
+  background-image: url(../img/sec1.jpg);
+  background-attachment: fixed;
+}
+
+#tres {
+  background-image: url(https://html.canalrcn.com/CanalRCN/react/rediseno-nl/img/especial-911/fondo-animacion.jpg);
+  height: auto;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+#cuatro {
+  background-image: url(../img/sec3.jpg);
+  height: auto;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-attachment: fixed;
+}
+#cinco {
+  background-image: url(../img/sec2.jpg);
+}
+
+.grid-uno {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo img {
+  width: 80%;
+  align-items: center;
+}
+
+.btn-ver-mas {
+  background-color: #446f90;
+  border: none;
+  color: white;
+  padding: 5px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Bebas Neue", cursive;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+.btn-ver-mas-2 {
+  background-color: #1e344f;
+  border: none;
+  color: white;
+  padding: 5px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Bebas Neue", cursive;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+.embed-responsive {
+  margin-bottom: 1rem;
+}
+
+.card {
+  background-color: transparent;
+  border: 0;
+}
+.card p {
+  color: #fff;
+}
+
+.vuelo img {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+.izq p {
+  text-align: right;
+}
+.card.circule {
+  align-items: flex-start;
+}
+.izq .card.circule {
+  align-items: flex-end;
+}
+
+.card-body.circule {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border: 2px solid #fff;
+  padding: 0;
+  border-radius: 100%;
+}
+.card-body.circule img {
+  max-width: 170%;
+  transform: translate(-20%, -20px);
+}
+.img-nota {
+  height: 180px;
+  overflow: hidden;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#cinco .img-nota {
+  height: 300px;
+}
+.texto-nota {
+  padding: 0.5rem;
+}
+
+.nota {
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  border-radius: 10px;
+  min-height: 388px;
+  margin-bottom: 1.5rem;
+}
+#cinco .nota {
+  background-color: #fff;
+  box-shadow: none;
+  border-radius: 0;
+  min-height: 470px;
+  margin-bottom: 0;
+}
+.nota h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #346589;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.nota p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #4b4b4b;
+  font-weight: 400;
+}
+.nota span {
+  display: block;
+  text-align: center;
+  color: #4b4b4b;
+}
+#cinco h3.titulo {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+.bg-creditos {
+  background: #1e344f;
+}
+@media (max-width: 768px) {
+  .footer-text {
+    font-size: x-small;
+  }
+
+  #uno {
+    background-image: url(../img/bg-iota-m.gif);
+  }
+
+  .logo img {
+    width: 405px;
+  }
+  #dos {
+    display: block;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    height: auto;
+  }
+  #tres {
+    display: block;
+    height: auto;
+  }
+  .card.circule {
+    align-items: center;
+  }
+  #cinco .img-nota {
+    height: 230px;
+  }
+}
+
+#carouselExampleControls {
+  color: #007bff !important;
+}
+.logo-noticias {
+  height: 20px;
+  margin-top: 2px;
+}
+@media (max-width: 320px) {
+  #uno {
+    background-image: url('../img/bg-iota-m.gif');
+    background-position: top center;
+    background-size: contain;
+    max-height: 400px;
+  }
+}
+
+@media (max-width: 800px) {
+  #uno {
+    background-image: url('../img/bg-iota-m.gif');
+    background-position: top center;
+    background-size: contain;
+    max-height: 500px;
+  }
+}
+

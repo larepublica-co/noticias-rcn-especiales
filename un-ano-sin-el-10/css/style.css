@@ -1,0 +1,416 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+.bg {
+  height: 100vh;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+.carousel-control-prev{
+  background: transparent !important;
+  border: none !important;
+}
+
+.carousel-control-next{
+  background: transparent !important;
+  border: none !important;
+  color: #072b40 !important;
+  margin-right: 100px !important;
+}
+
+.carousel-indicators{
+  
+}
+
+.carousel-indicators li{
+ background: #000;
+ border-radius: 100%;
+ }
+
+.carousel-indicators .active{
+  background: #fff;
+  
+ }
+p {
+  font-family: 'Roboto Slab', serif;
+}
+#dos p {
+  font-weight: 600;
+}
+a:hover{
+  text-decoration: none;
+  color:initial;
+}
+
+.titulo {
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  color: #08232f;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+#tres .titulo {
+  color: #ffffff;
+}
+
+#uno {
+  background-image: url('../img/1Header_Fondo.jpg');
+}
+
+
+#dos {
+  background-image: url('../img/2Scroll_Fondo.jpg');
+  height: 320vh;
+  width: 100%;
+}
+
+#dos .card{
+  height: 90%;
+  margin-left: 1px;
+}
+
+#tres {
+  background-image: url(https://html.canalrcn.com/CanalRCN/react/rediseno-nl/img/especial-911/fondo-animacion.jpg);
+  height: auto;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+#cuatro{
+ background: #00a6fe;
+ height: auto;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-attachment: fixed;
+}
+#cinco{
+  background-image: url(../img/4Scroll_Fondo.jpg);
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.container-slide{
+  margin: 15%;
+}
+
+.bg-creditos {
+  background: #1e344f;
+}
+.logo-noticias {
+  height: 20px;
+  margin-top: 2px;
+}
+
+.infografia{
+  width: 70%;
+  height: auto;
+}
+
+.logo img {
+  width: 40%;
+}
+
+.btn-ver-mas {
+  background-color: #5e0a1d;
+  border: none;
+  color: white;
+  padding: 5px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+.embed-responsive {
+  margin-bottom: 1rem;
+}
+
+
+
+.vuelo img {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+.izq p{
+  text-align: right;
+}
+.card.circule{
+  align-items: flex-start;
+}
+.izq .card.circule{
+  align-items: flex-end;
+}
+
+.card-body.circule{
+  width:200px;
+    height: 200px;
+    overflow: hidden;
+    border: 2px solid #fff;
+    padding: 0;
+    border-radius: 100%;
+}
+.card-body.circule img{
+      max-width: 170%;
+    transform: translate(-20%, -20px);
+}
+.img-nota {
+    height: 180px;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  
+}
+#cinco .img-nota {
+    height: 300px;
+}
+.texto-nota {
+    padding: .5rem;
+}
+.nota{
+  background-color: #072b40;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  border-radius: 10px;
+  min-height: 388px;
+  margin-bottom: 1.5rem;
+}
+#cinco .nota {
+    background-color: #072b40c9;
+    box-shadow: none;
+    border-radius: 0;
+    min-height: 470px;
+    margin-bottom: 0;
+}
+.nota h3{
+    font-family: 'Roboto Slab', serif;
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.nota p {
+  color:#ffffff;
+}
+.nota span{
+  display: block;
+  text-align: center;
+  color:#ffffff;
+}
+#cinco h3.titulo{
+  color:#ffffff;
+}
+
+@media(max-width:768px) {
+  .logo img {
+    width: 350px;
+  }
+  @media(max-width:425px){
+    #dos{
+      display: none;
+    }
+  }
+  
+  #dos {
+    display: block;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    height: auto;
+  }
+  #tres {
+    display: block;
+    height: auto;
+  }
+  .card.circule {
+    align-items: center;
+}
+  #cinco .img-nota {
+    height: 230px;
+}
+}
+
+@media (max-width: 320px) {
+  #uno {
+    background-image: url('../img/1Header_Mobile.jpg');
+    background-position: top center;
+    background-size: cover;
+    max-height: 400px;
+  }
+}
+
+@media (max-width: 800px) {
+  #uno {
+    background-image: url('../img/1Header_Mobile.jpg');
+    background-position: top center;
+    background-size: cover;
+    max-height: 500px;
+  }
+}
+.texto-7{
+  font-family:'Roboto Slab', serif;
+font-weight: bolder;
+font-size: 15px;
+}
+div#simple-gallery .card{
+  cursor: pointer;
+}
+
+div#simple-gallery .video{
+  position: absolute;
+  top: 3rem;
+  left: 22%;
+  opacity: 0;
+  transition: .7s opacity;
+  text-align: center;
+  font-size: 1.4rem;
+  font-style: italic;
+  color: #fff;
+  padding-left: 0;
+  width: 40%;
+}
+
+
+
+
+
+.card-container {
+  -webkit-perspective: 800px;
+  -moz-perspective: 800px;
+  -o-perspective: 800px;
+  perspective: 800px;
+  margin-bottom: 30px;
+}
+
+.card-container:hover .card, .card-container.hover .card {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.card-container.static:hover .card, .card-container.static.hover .card {
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  transform: none;
+}
+
+/* flip the pane when hovered */
+/* flip speed goes here */
+.card {
+  -webkit-transition: -webkit-transform 0.5s;
+  -moz-transition: -moz-transform 0.5s;
+  -o-transition: -o-transform 0.5s;
+  transition: transform 0.5s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.14);
+}
+
+/* front pane, placed above back */
+.front {
+  z-index: 2;
+}
+
+/* back, initially hidden pane */
+.back {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.m-card{
+  margin-top: 215px;
+}
+.m-seccion{
+  margin-top: 215px !important; 
+}
+
+.card-title{
+  font-family:'Roboto Slab', serif;
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: -10px;
+}
+
+.card-body{
+  height: 20px;
+  
+}
+
+.sub-tex {
+  font-family:'Roboto Slab', serif;
+  font-weight:bolder;
+  font-size: 10px;
+  margin-top: -13px;
+}
+
+.back{
+  background-color: transparent !important;
+  border:none !important;
+  font-family: 'Bebas Neue', cursive;  
+  font-size: 13px !important;
+  color: #021e5b;
+}
+
+.back h2 {
+  font-size: 26px !important;
+  line-height: 25px;
+}
+
+.d-maradona-img{
+  width: 339px;
+  height: auto;
+}
+.img-m{
+  width: 100vh;
+  position: relative;
+  top: 76px;
+}
+
+.back.diego-jr h2 {
+  font-size: 20px !important;
+  line-height: 20px;
+}
+
+.hermanas-m{
+width: 445px;
+}
+
+.img-f{
+  width: 445px;
+  position: relative;
+  top: -20px;
+}
+
+.titulares{
+  font-weight: bolder;
+  font-size: medium;
+  margin-bottom: 10px;
+}
