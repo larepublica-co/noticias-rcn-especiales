@@ -2,18 +2,36 @@ name: Upload S3
 on:
   push:
     branches:
-    - staging
+      - staging
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@v1
-    - name: Configure AWS Credentials
-      uses: aws-actions/configure-aws-credentials@v1
-      with:
-        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: us-east-1
-    - name: Deploy static site to S3 bucket
-      run: aws s3 sync ./ s3://noticias-rcn-especiales-stg --exclude ".git*" --exclude "README.md" --delete
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Add Canonical Link
+        run: |
+          for file in $(find . -name '*.html' ! -path './.git/*'); do
+            if ! grep -q '<link rel="canonical"' $file; then
+              # Extract the file path
+              filepath=$(dirname "$file")
+              # Construct the canonical URL
+              canonical_url="https://your-domain.com$filepath"
+              # Add the canonical link to the HTML file
+              sed -i 's|<head>|<head>\n<link rel="canonical" href="'$canonical_url'"/>|' $file
+            fi
+          done
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -am "Add canonical links"
+          git push
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+      - name: Deploy static site to S3 bucket
+        run: aws s3 sync ./ s3://noticias-rcn-especiales-stg --exclude ".git*" --exclude "README.md" --delete
