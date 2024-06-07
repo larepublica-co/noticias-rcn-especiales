@@ -34,7 +34,7 @@ jobs:
         run: |
           git config --global user.email "obuitrago@larepublica.com.co"
           git config --global user.name "Oscar Buitrago (Actions)"
-          git commit -am "Add canonical links"
+          git commit -am "Add canonical links" --allow-empty
           git push
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
