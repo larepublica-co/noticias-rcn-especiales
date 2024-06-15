@@ -71,26 +71,64 @@
 
     <!-- Modal structure -->
     <div class="modal">
-        <div id="cerrar">x</div>
-        <iframe id="mivideo" width="720" height="405" src="https://www.youtube.com/embed/AsnIh7UCvgY?enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <div id="cerrar">x</div>
+      <iframe
+        id="mivideo"
+        width="720"
+        height="405"
+        src="https://www.youtube.com/embed/AsnIh7UCvgY?enablejsapi=1"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
     </div>
 
-
-
-    <section class="hero" >
+    <section class="hero">
       <div class="hero__main container">
         <div class="hero__info">
           <div class="hero__figure">
             <p class="hero__paragraph">
-              ¡Vivamos juntos la pasión de la Copa América 2024 en Noticias RCN! 
+              ¡Vivamos juntos la pasión de la Copa América 2024!
             </p>
           </div>
           <div class="video" id="video">
             <ion-icon name="play"></ion-icon>
           </div>
         </div>
-      </div> 
-      </picture>
+      </div>
+    </section>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      let player;
+
+      // Función que se llama cuando la API de YouTube está lista
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('mivideo', {
+          events: {
+            'onReady': onPlayerReady,
+          },
+        });
+      }
+
+      function onPlayerReady(event) {
+        // Cuando el reproductor está listo, podemos agregar nuestros eventos
+        $('#video').on('click', function () {
+          $('.modal').addClass('active');
+          $('body').addClass('active');
+          player.playVideo(); // Reproducir el video automáticamente cuando se abre el modal
+        });
+
+        $('#cerrar').on('click', function () {
+          $('.modal').removeClass('active');
+          $('body').removeClass('active');
+          player.pauseVideo(); // Pausar el video cuando se cierra el modal
+        });
+      }
+    </script>
     </section>
 
     <!--fixture-->
@@ -103,8 +141,11 @@
           <div class="item__carousel_fixture">
             <figure class="picture__carousel_fixture">                
               <div class="agua___viedo--1">
-                <img src="img/argentinavscanada_desktop.png" class="imgfixture">
-                <img src="img/argentinavscanada_fecha1mobile.png" class="imgfixture_mobile">
+
+                <a href="https://www.canalrcn.com/senal-en-vivo/" target="_blank">
+                  <img src="img/argentinavscanada_desktop.png" class="imgfixture">
+                  <img src="img/argentinavscanada_fecha1mobile.png" class="imgfixture_mobile">
+                </a>
                 
               </div>
             </figure>
@@ -113,8 +154,11 @@
           <div class="item__carousel_fixture">
             <figure class="picture__carousel">                
               <div class="agua___viedo--1">
-                <img src="img/peruvschile_desktop.png" class="imgfixture">
-                <img src="img/peruvschile_fecha1mobile.png" class="imgfixture_mobile">
+
+                <a href="https://www.canalrcn.com/senal-en-vivo/" target="_blank">
+                  <img src="img/colombia_vs_paraguay_fecha1.png" class="imgfixture">
+                  <img src="img/colombia_vs_paraguay_fecha1mobile.png" class="imgfixture_mobile">
+                </a>
                 
               </div>
             </figure>
@@ -123,8 +167,12 @@
           <div class="item__carousel_fixture">
             <figure class="picture__carousel_fixture">                
               <div class="agua___viedo--1">
-                <img src="img/ecuadorvsvenezuela_desktop.png" class="imgfixture">
-                <img src="img/ecuadorvsvenezuela_fecha1mobile.png" class="imgfixture_mobile">
+
+                <a href="https://www.canalrcn.com/senal-en-vivo/" target="_blank">
+                  <img src="img/colombiavscrica_fecha2.png" class="imgfixture">
+                  <img src="img/colombiavscrica_fecha2mobile.png" class="imgfixture_mobile">
+                </a>
+
                 
               </div>
             </figure>
@@ -133,48 +181,11 @@
           <div class="item__carousel_fixture">
             <figure class="picture__carousel">                
               <div class="agua___viedo--1">
-                <img src="img/mexicovsjamaica_desktop.png" class="imgfixture">
-                <img src="img/mexicovsjamaica_fecha1mobile.png" class="imgfixture_mobile">
-                
-              </div>
-            </figure>
-          </div>
 
-          <div class="item__carousel_fixture">
-            <figure class="picture__carousel_fixture">                
-              <div class="agua___viedo--1">
-                <img src="img/euvsbolivia_desktop.png" class="imgfixture">
-                <img src="img/euvsbolivia_fecha1mobile.png" class="imgfixture_mobile">
-                
-              </div>
-            </figure>
-          </div>
-
-          <div class="item__carousel_fixture">
-            <figure class="picture__carousel">                
-              <div class="agua___viedo--1">
-                <img src="img/uruguayvspanama_desktop.png" class="imgfixture">
-                <img src="img/uruguayvspanama_fecha1mobile.png" class="imgfixture_mobile">
-                
-              </div>
-            </figure>
-          </div>
-
-          <div class="item__carousel_fixture">
-            <figure class="picture__carousel_fixture">                
-              <div class="agua___viedo--1">
-                <img src="img/colombia_vs_paraguay_fecha1.png" class="imgfixture">
-                <img src="img/colombia_vs_paraguay_fecha1mobile.png" class="imgfixture_mobile">
-                
-              </div>
-            </figure>
-          </div>
-
-          <div class="item__carousel_fixture">
-            <figure class="picture__carousel">                
-              <div class="agua___viedo--1">
-                <img src="img/brasilvscostarica_desktop.png" class="imgfixture">
-                <img src="img/brasilvscostarica_fecha1mobile.png" class="imgfixture_mobile">
+                <a href="https://www.canalrcn.com/senal-en-vivo/" target="_blank">
+                  <img src="img/colombiavsbrasil_fecha3.png" class="imgfixture">
+                  <img src="img/colombiavsbrasil_fecha3mobile.png" class="imgfixture_mobile">
+                </a>
                 
               </div>
             </figure>
@@ -186,10 +197,37 @@
 
     <!--/fixture-->
 
+    <!--Data Factory-->
+
+    <section class="noticias" >
+      <h2 class="energia__title">Así va la Copa, resultados y tabla en vivo</h2>
+    </section>
+
+    <div class="data">
+      
+      <iframe src="https://datafactory.noticiasrcn.com/html/v3/htmlCenter/data/deportes/futbol/copaamerica/pages/es/agenda.html"
+      width="100%" height="180" scrolling="auto" style="width: 1px; min-width: 90%; width: 90%;" class=" border-0"></iframe>
+
+    </div>
+
+    <!--/Data Factory-->
+
+     <!--Tabla-->
+
+
+    <div class="tabla">
+      
+      <iframe src="https://datafactory.noticiasrcn.com/html/v3/minapp/page/page.html?channel=deportes.futbol.copaamerica&lang=es_LA&page=posiciones"
+      width="100%" height="800" scrolling="auto" style="width: 1px; min-width: 50%; width: 50%;" class=" border-0"></iframe>
+
+    </div>
+
+    <!--/Tabla-->
+
     <!--Noticias-->
 
     <section class="noticias" >
-      <h2 class="energia__title">Noticias de la Copa América</h2>
+      <h2 class="energia__title">Lo último de la Copa América 2024</h2>
     </section>
 
     <section class="post-list">
@@ -277,7 +315,7 @@
 
 
  <div class="Carousel">
-    <h2>Condenido en redes</h2>
+    <h2>#RespiroFútbol</h2>
     
     <div class="slick-list" id="slick-list">
         <button class="slick-arrow slick-prev" id="button-prev" data-button="button-prev" onclick="app.processingButton(event)">
@@ -422,50 +460,6 @@
        dropRadius: 20,
        perturbance: 0.04,
      });
-
-     </script>
-
-     <script>
-      
-
-      let player;
-
-// Función que se llama cuando la API de YouTube está lista
-function onYouTubeIframeAPIReady() {
-    player = new YT.Player('mivideo', {
-        events: {
-            'onReady': onPlayerReady
-        }
-    });
-}
-
-function onPlayerReady(event) {
-    // Cuando el reproductor está listo, podemos agregar nuestros eventos
-    $('#video').on('click', function() {
-        $(".modal").addClass("active");
-        $("body").addClass("active");
-        player.playVideo(); // Opcional: reproducir el video automáticamente cuando se abre el modal
-    });
-
-    $('#cerrar').on('click', function() {
-        $(".modal").removeClass("active");
-        $("body").removeClass("active");
-        player.pauseVideo(); // Pausar el video cuando se cierra el modal
-    });
-}
-
-// Cargar la API de YouTube
-function loadYouTubeAPI() {
-    let tag = document.createElement('script');
-    tag.src = "https://www.youtube.com/iframe_api";
-    let firstScriptTag = document.getElementsByTagName('script')[0];
-    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-}
-
-// Cargar la API de YouTube al cargar la página
-$(document).ready(function() {
-    loadYouTubeAPI();
-});
      </script>
      <script>
       $(document).ready(function () {
@@ -485,10 +479,6 @@ $(document).ready(function() {
           // you can call your playlist using youtube api
       })
   </script>
-
-
-
-
 
   </body>
 </html>

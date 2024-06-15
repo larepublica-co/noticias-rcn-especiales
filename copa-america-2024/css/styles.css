@@ -2440,6 +2440,7 @@ a {
   background-attachment: fixed;
   width: 100%;
   padding-bottom: 6%;
+  background-repeat: no-repeat;
   
   
 }
@@ -2547,6 +2548,7 @@ a {
   background-image: url("../img/fondovideos-desk.jpg");
   background-attachment: fixed;
   height: 950px;
+  background-repeat: no-repeat;
 }
 
 .texto-videosyt {
@@ -2684,6 +2686,32 @@ body.active {
 
 /* fixture */
 
+/* data */
+
+.data {
+  display: flex;
+  padding-top: 51px;
+}
+
+/* tabla */
+
+.tabla {
+  padding-top: 30px;
+  background-image: url("../img/fondotabla.jpg");
+  height: 900px;
+  margin-top: 4%;
+  padding-right: 10%;
+  text-align: right;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+
+@media (min-width:425px) {
+  .tabla {
+    background-image: url("../img/fondotabla-mobile.jpg");
+  }
+} 
 
 
 @media(max-width:767px){
@@ -2700,6 +2728,7 @@ body.active {
     margin-left: 59%;
     margin-top: -7%;
   }
+  
 
 }
 
@@ -2710,6 +2739,10 @@ body.active {
 
   .fixture {
     height: 250px;
+  }
+
+  .tabla {
+    background-image: url("../img/fondotabla-tablet2.jpg");
   }
 
   .hero__paragraph {
@@ -2753,6 +2786,10 @@ body.active {
     height: 273px;
   }
 
+  .tabla {
+    background-image: url("../img/fondotabla-tablet.jpg");
+  }
+
   .hero__paragraph {
     font-size: 30px;
   }
@@ -2781,6 +2818,10 @@ body.active {
 
   .fixture {
     height: 356px;
+  }
+
+  .tabla {
+    background-image: url("../img/fondotabla-tablet.jpg");
   }
 
   .hero__paragraph {
@@ -2812,6 +2853,10 @@ body.active {
     height: 374px;
   }
 
+  .tabla {
+    background-image: url("../img/fondotabla-tablet.jpg");
+  }
+
   .hero__paragraph {
     font-size: 40px;
   }
@@ -2838,6 +2883,10 @@ body.active {
     height: 374px;
   }
 
+  .tabla {
+    background-image: url("../img/fondotabla.jpg");
+  }
+
   .hero__paragraph {
     font-size: 40px;
   }
@@ -2852,6 +2901,10 @@ body.active {
 @media (min-width:1920px) {
   .container_fixture {
     margin-top: -160px;
+  }
+
+  .tabla {
+    background-image: url("../img/fondotabla.jpg");
   }
 
   .hero__paragraph {
