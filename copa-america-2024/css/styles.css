@@ -20,7 +20,7 @@ body {
 
 .topheader {
   position: fixed;
-  background-color: #0063de;
+  background-color: #003282;
   left: 0;
   top: 0;
   width: 100%;
@@ -52,7 +52,7 @@ body {
 
 .menu a {
   color: white;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
   line-height: 50px;
   text-transform: uppercase;
@@ -66,7 +66,7 @@ body {
   left: 0;
   top: calc(100% + 4px);
   width: 100%;
-  height: 4px;
+  height: 2px;
 
   opacity: 0;
   transition: opacity 0.3s;
@@ -122,7 +122,7 @@ body {
   .menu a {
     color: var(--text-color-inverse);
     line-height: 70px;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .open-menu,
@@ -164,11 +164,11 @@ body {
 :root {
   --theme-color: #460079;
   --primary-color: #124f88;
-  --secundary-color: #f88ae9;
+  --secundary-color: #ffd630;
   --text-color-inverse: white;
   --text-color: black;
   --navbar-shallow-color: #e5e5e5;
-  --menu-mobile-background-color: #3a4460;
+  --menu-mobile-background-color: #2e56ab;
 }
 
 html {
@@ -253,6 +253,8 @@ a {
   background-position: center;
   position: relative;
   height: 540px;
+ 
+  
 }
 .footer {
   background-color: #072146;
@@ -483,7 +485,7 @@ a {
 }
 
 .post-img-1 {
-  background-image: url(../img/nota1.jpg);
+  background-image: url(../img/historiconota.jpg);
   width: 100%;
   height: 250px;
   background-size: cover;
@@ -492,7 +494,7 @@ a {
 }
 
 .post-img-2 {
-  background-image: url(../img/nota2.jpg);
+  background-image: url(../img/recordnota.jpg);
   width: 100%;
   height: 250px;
   background-size: cover;
@@ -501,7 +503,7 @@ a {
   }
 
   .post-img-3 {
-    background-image: url(../img/nota3.jpg);
+    background-image: url(../img/danielnota.jpg);
     width: 100%;
     height: 250px;
     background-size: cover;
@@ -510,7 +512,7 @@ a {
     }
 
     .post-img-4 {
-      background-image: url(../img/nota3.jpg);
+      background-image: url(../img/gustavonota.jpg);
       width: 100%;
       height: 250px;
       background-size: cover;
@@ -519,7 +521,7 @@ a {
       }
 
       .post-img-5 {
-        background-image: url(../img/nota2.jpg);
+        background-image: url(../img/ivanramironota.jpg);
         width: 100%;
         height: 250px;
         background-size: cover;
@@ -528,7 +530,7 @@ a {
         }
 
         .post-img-6 {
-          background-image: url(../img/nota1.jpg);
+          background-image: url(../img/leyendasnota.jpg);
           width: 100%;
           height: 250px;
           background-size: cover;
@@ -1579,20 +1581,32 @@ a {
     margin: 0 auto;
     color: #fff;
   }
+
   .hero {
     background-image: url(../img/header-fondo-1.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100%;
     background-position: top center;
-    height: 770px;
+    height: 525px;
     background-attachment: fixed;
+    animation: zoomInt 10s forwards;
+    overflow: hidden;
   }
+  @keyframes zoomInt {
+    0% {
+        background-size: 110%;
+    }
+
+    100% {
+        background-size: 120%;
+    }
+}
   .hero__main {
     display: flex;
   }
   .hero__info {
     width: 78%;
-    margin-top: 5%;
+    margin-top: 10%;
     margin-left: 34%;
   }
   .hero__figure {
@@ -2706,8 +2720,19 @@ body.active {
   background-repeat: no-repeat;
 }
 
+/*logo ca*/
+
+.logoca {
+  width: 173px;
+}
+
+
+
 
 @media (min-width:425px) {
+  .hero{
+    margin-top: 60px;
+  }
   .tabla {
     background-image: url("../img/fondotabla-mobile.jpg");
   }
@@ -2733,6 +2758,9 @@ body.active {
 }
 
 @media (min-width:768px) {
+  .hero{
+    margin-top: 0px;
+  }
   .container_fixture {
     margin-top: -64px;
   }
@@ -2778,8 +2806,11 @@ body.active {
 }
 
 @media (min-width:1024px) {
+  .hero{
+    margin-top: 0px;
+  }
   .container_fixture {
-    margin-top: -384px;
+    margin-top: -90px;
   }
 
   .fixture {
@@ -2812,8 +2843,23 @@ body.active {
 
 
 @media (min-width:1280px) {
+  .hero {
+    height: 645px;
+    animation: zoomInt 10s forwards;
+    overflow: hidden;
+    margin-top: 0px;
+  }
+  @keyframes zoomInt {
+    0% {
+        background-size: 110%;
+    }
+
+    100% {
+        background-size: 115%;
+    }
+}
   .container_fixture {
-    margin-top: -300px;
+    margin-top: -110px;
   }
 
   .fixture {
@@ -2845,8 +2891,25 @@ body.active {
 
 
 @media (min-width:1440px) {
+
+  .hero {
+    height: 740px;
+    animation: zoomInt 10s forwards;
+    overflow: hidden;
+    margin-top: 0px;
+  }
+  @keyframes zoomInt {
+    0% {
+        background-size: 110%;
+    }
+
+    100% {
+        background-size: 115%;
+    }
+}
+
   .container_fixture {
-    margin-top: -250px;
+    margin-top: -155px;
   }
 
   .fixture {
@@ -2875,8 +2938,24 @@ body.active {
 
 
 @media (min-width:1680px) {
+
+  .hero {
+    height: 775px;
+    animation: zoomInt 10s forwards;
+    overflow: hidden;
+    margin-top: 0px;
+  }
+  @keyframes zoomInt {
+    0% {
+        background-size: 100%;
+    }
+
+    100% {
+        background-size: 105%;
+    }
+}
   .container_fixture {
-    margin-top: -180px;
+    margin-top: -155px;
   }
 
   .fixture {
@@ -2899,6 +2978,23 @@ body.active {
 
 
 @media (min-width:1920px) {
+
+  .hero {
+    height: 840px;
+    animation: zoomInt 10s forwards;
+    overflow: hidden;
+    margin-top: 0px;
+  }
+  @keyframes zoomInt {
+    0% {
+        background-size: 100%;
+    }
+
+    100% {
+        background-size: 105%;
+    }
+}
+
   .container_fixture {
     margin-top: -160px;
   }

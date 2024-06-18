@@ -69,71 +69,69 @@
 
   <body>
 
+        <!--Menú-->
+    <header class="topheader">
+      <nav class="topnav">
+        <a href="https://www.noticiasrcn.com/temas/copa-america" target="_blank">
+          <img src="img/logocopaamerica.png" class="logoca">
+        </a>
+       
+          
+        
+        <button class="open-menu" aria-label="Abrir menú">
+          <img src="img/hamburger-icon.svg" alt="abrir menú" />
+        </button>
+        <ul class="menu">
+          <button class="close-menu" aria-label="Cerrar menú">
+            <img src="img/close-icon.svg" alt="cerrar menú" />
+          </button>
+          <li><a href="#inicio" class="selected">Inicio</a></li>
+          <li><a href="#transmisiones">Transmisiones</a></li>
+          <li><a href="#tabla">Tabla de posiciones</a></li>
+          <li><a href="#noticias">Noticias</a></li>
+          <li><a href="#respiro">Respiro fútbol</a></li>
+          <li><a href="#youtube">Videos</a></li>
+        </ul>
+      </nav>
+    </header>
+  
+  
+    <!--Menú-->
+
     <!-- Modal structure -->
-    <div class="modal">
+    <div class="modal" id="modal">
       <div id="cerrar">x</div>
       <iframe
-        id="mivideo"
-        width="720"
-        height="405"
-        src="https://www.youtube.com/embed/AsnIh7UCvgY?enablejsapi=1"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
+          id="mivideo"
+          width="720"
+          height="405"
+          src=""
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
       ></iframe>
-    </div>
-
-    <section class="hero">
+  </div>
+  
+  <section class="hero" id="inicio">
       <div class="hero__main container">
-        <div class="hero__info">
-          <div class="hero__figure">
-            <p class="hero__paragraph">
-              ¡Vivamos juntos la pasión de la Copa América 2024!
-            </p>
+          <div class="hero__info">
+              <div class="hero__figure">
+                  <p class="hero__paragraph">
+                      ¡Vivamos juntos la pasión de la Copa América 2024!
+                  </p>
+              </div>
+              <div class="video" id="video">
+                  <ion-icon name="play"></ion-icon>
+              </div>
           </div>
-          <div class="video" id="video">
-            <ion-icon name="play"></ion-icon>
-          </div>
-        </div>
       </div>
-    </section>
-
-    <script src="https://www.youtube.com/iframe_api"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-      let player;
-
-      // Función que se llama cuando la API de YouTube está lista
-      function onYouTubeIframeAPIReady() {
-        player = new YT.Player('mivideo', {
-          events: {
-            'onReady': onPlayerReady,
-          },
-        });
-      }
-
-      function onPlayerReady(event) {
-        // Cuando el reproductor está listo, podemos agregar nuestros eventos
-        $('#video').on('click', function () {
-          $('.modal').addClass('active');
-          $('body').addClass('active');
-          player.playVideo(); // Reproducir el video automáticamente cuando se abre el modal
-        });
-
-        $('#cerrar').on('click', function () {
-          $('.modal').removeClass('active');
-          $('body').removeClass('active');
-          player.pauseVideo(); // Pausar el video cuando se cierra el modal
-        });
-      }
-    </script>
-    </section>
+  </section>
 
     <!--fixture-->
 
-    <section class="fixture">
+    <section class="fixture" id="transmisiones">
       <div class="fixture__container container_fixture">
         <div class="owl-carousel owl-theme carousel__interna">
           
@@ -215,7 +213,7 @@
      <!--Tabla-->
 
 
-    <div class="tabla">
+    <div class="tabla" id="tabla">
       
       <iframe src="https://datafactory.noticiasrcn.com/html/v3/minapp/page/page.html?channel=deportes.futbol.copaamerica&lang=es_LA&page=posiciones"
       width="100%" height="800" scrolling="auto" style="width: 1px; min-width: 50%; width: 50%;" class=" border-0"></iframe>
@@ -226,7 +224,7 @@
 
     <!--Noticias-->
 
-    <section class="noticias" >
+    <section class="noticias" id="noticias">
       <h2 class="energia__title">Lo último de la Copa América 2024</h2>
     </section>
 
@@ -238,10 +236,9 @@
           </div>
           <div class="Post-body">
             <h6 class="lead">Deportes RCN</h6>
-            <h2 class="titulonoticia">¿Para la Copa América? Vea los cinco goles de Mateo Casierra</h2>
-            <p class="descripcion">El cafetero suma 21 goles en la Liga de Rusia
-              y este domingo fue la gran figura del Zenit.</p>
-            <a href="https://www.noticiasrcn.com/colombia/especial-sobre-endometriosis-que-es-sintomas-y-ley-466979" target="_blank" class="Post-link">Leer más</a>
+            <h2 class="titulonoticia">Historial de la Selección Colombia debutando contra Paraguay en la Copa América </h2>
+            <p class="descripcion">El próximo encuentro del equipo de Néstor Lorenzo, contra los guaranís, será fundamental en la competencia.            </p>
+            <a href="https://www.canalrcn.com/deportesrcn/futbol-rcn/historial-colombia-debut-contra-paraguay-copa-america-186155" target="_blank" class="Post-link">Leer más</a>
           </div>
         </article>
 
@@ -251,10 +248,9 @@
           </div>
           <div class="Post-body">
             <h6 class="lead">Noticias RCN</h6>
-            <h2 class="titulonoticia">¿Para la Copa América? Vea los cinco goles de Mateo Casierra</h2>
-            <p class="descripcion">El cafetero suma 21 goles en la Liga de Rusia
-              y este domingo fue la gran figura del Zenit.</p>
-            <a href="https://www.noticiasrcn.com/colombia/cuanto-cuesta-la-endometriosis-en-colombia-466204" target="_blank" class="Post-link">Leer más</a>
+            <h2 class="titulonoticia">Los máximos goleadores de la Selección Colombia en Copa América: Luis Díaz busca la cima            </h2>
+            <p class="descripcion">Comienza la Copa América y Luis Díaz va por el récord que ostenta Arnoldo Iguarán. Vea el listado.</p>
+            <a href="https://www.noticiasrcn.com/deportes/los-maximos-goleadores-de-la-seleccion-colombia-en-copa-america-luis-diaz-busca-la-cima-708433" target="_blank" class="Post-link">Leer más</a>
           </div>
         </article>
 
@@ -264,10 +260,9 @@
           </div>
           <div class="Post-body">
             <h6 class="lead">Deportes RCN</h6>
-            <h2 class="titulonoticia">¿Para la Copa América? Vea los cinco goles de Mateo Casierra</h2>
-            <p class="descripcion">El cafetero suma 21 goles en la Liga de Rusia
-              y este domingo fue la gran figura del Zenit.</p>
-            <a href="https://noticiasrcn.com/salud/cuanto-ha-avanzado-la-ley-endometriosis-colombia-466154" target="_blank" class="Post-link">Leer más</a>
+            <h2 class="titulonoticia">Roja a Daniel Muñoz contra Bolivia: ¿jugará en el debut de la Copa América?            </h2>
+            <p class="descripcion">El defensor del Crystal Palace protagonizo un caliente momento en el partido contra los bolivianos. </p>
+            <a href="https://www.canalrcn.com/deportesrcn/futbol-rcn/daniel-munoz-expulsado-puede-jugar-debut-copa-america-186081" target="_blank" class="Post-link">Leer más</a>
           </div>
         </article>
 
@@ -276,11 +271,10 @@
             <div class="post-img-4"></div>
           </div>
           <div class="Post-body">
-            <h6 class="lead">Noticias RCN</h6>
-            <h2 class="titulonoticia">¿Para la Copa América? Vea los cinco goles de Mateo Casierra</h2>
-            <p class="descripcion">El cafetero suma 21 goles en la Liga de Rusia
-              y este domingo fue la gran figura del Zenit.</p>
-            <a href="https://www.noticiasrcn.com/salud/por-que-la-ciencia-no-investiga-la-endometriosis-467077" target="_blank" class="Post-link">Leer más</a>
+            <h6 class="lead">Deportes RCN</h6>
+            <h2 class="titulonoticia">"Por encima de Brasil": Gustavo Alfaro elogia a la Selección Colombia            </h2>
+            <p class="descripcion">El estratega argentino se refirió sobre el combinado tricolor, destacándolo y catalogándolo por encima de un grande del mundo para la Copa América.            </p>
+            <a href="https://www.canalrcn.com/deportesrcn/futbol-rcn/gustavo-alfaro-elogia-seleccion-colombia-copa-america-186166" target="_blank" class="Post-link">Leer más</a>
           </div>
         </article>
 
@@ -289,11 +283,10 @@
             <div class="post-img-5"></div>
           </div>
           <div class="Post-body">
-            <h6 class="lead">Deportes RCN</h6>
-            <h2 class="titulonoticia">¿Para la Copa América? Vea los cinco goles de Mateo Casierra</h2>
-            <p class="descripcion">El cafetero suma 21 goles en la Liga de Rusia
-              y este domingo fue la gran figura del Zenit.</p>
-            <a href="https://www.noticiasrcn.com/salud/endometriosis-alimentos-para-aliviar-sintomas-467079" target="_blank" class="Post-link">Leer más</a>
+            <h6 class="lead">Noticias RCN</h6>
+            <h2 class="titulonoticia">Iván Ramiro Córdoba, el hombre que le dio la gloria a Colombia</h2>
+            <p class="descripcion">El exjugador fue el responsable de que la Selección Colombia tenga una Copa América en sus vitrinas.            </p>
+            <a href="https://www.noticiasrcn.com/deportes/ivan-ramiro-cordoba-el-hombre-que-le-dio-la-gloria-a-colombia-706534" target="_blank" class="Post-link">Leer más</a>
           </div>
         </article>
 
@@ -303,10 +296,10 @@
           </div>
           <div class="Post-body">
             <h6 class="lead">Noticias RCN</h6>
-            <h2 class="titulonoticia">¿Para la Copa América? Vea los cinco goles de Mateo Casierra</h2>
-            <p class="descripcion">El cafetero suma 21 goles en la Liga de Rusia
-              y este domingo fue la gran figura del Zenit.</p>
-            <a href="https://www.noticiasrcn.com/tendencias/que-famosas-sufren-de-endometriosis-466359" target="_blank" class="Post-link">Leer más</a>
+            <h2 class="titulonoticia">Las grandes leyendas del fútbol que no ganaron la Copa América </h2>
+            <p class="descripcion">Una nueva edición está pronta a iniciar. La Copa América 2024 se jugará en Estados Unidos
+              y las 16 selecciones participantes dejarán la vida para llevarse el ansiado torneo.  </p>
+            <a href="https://www.noticiasrcn.com/deportes/los-jugadores-historicos-que-nunca-ganaron-la-copa-america-697864" target="_blank" class="Post-link">Leer más</a>
           </div>
         </article>
     </section>
@@ -314,7 +307,7 @@
     <!--/Noticias-->
 
 
- <div class="Carousel">
+ <div class="Carousel" id="respiro">
     <h2>#RespiroFútbol</h2>
     
     <div class="slick-list" id="slick-list">
@@ -328,8 +321,8 @@
                 <a href="/">
                     
                   <picture>
-                    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@noticiasrcn/video/7371517362643733766"
-                    data-video-id="7371517362643733766">
+                    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@noticiasrcn/video/7381907878178802949"
+                    data-video-id="7381907878178802949">
                     <script async src="https://www.tiktok.com/embed.js"></script>
                   </picture>
                 </a>
@@ -374,7 +367,7 @@
 </div>
 
 <!-- Playlist -->
-<div class="contenedorvideos">
+<div class="contenedorvideos" id="youtube">
   <div class="container">
     <div data-aos="fade-up"></div>
     <div class="row">
@@ -384,9 +377,9 @@
                 allowfullscreen></iframe>
         </div>
         <div class="details">
-          <h2 class="tiktok__title">Videos de Youtube</h2>
+          <h2 class="tiktok__title">Videos</h2>
           <p class="texto-videosyt">
-           <br> Así viven 148 hombres, 14 mujeres de la Armada y un equipo de Noticias RCN la expedición en el <strong>‘embajador de los mares’</strong>.
+           <br> No te pierdas ni un solo detalle de la <strong>Copa América 2024</strong> en los Estados Unidos.
           </p>
         </div>
         
@@ -454,6 +447,31 @@
     <script src="js/script-slide.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="js/jquery.ripples.js"></script>
+    <script defer src="js/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function() {
+          $('#video').on('click', function () {
+              $('#mivideo').attr('src', 'https://www.youtube.com/embed/AsnIh7UCvgY?autoplay=1');
+              $('#modal').addClass('active');
+              $('body').addClass('active');
+          });
+  
+          $('#cerrar').on('click', function () {
+              $('#modal').removeClass('active');
+              $('body').removeClass('active');
+              $('#mivideo').attr('src', ''); // Detener el video
+          });
+  
+          $('#modal').on('click', function(event) {
+              if (event.target === this) {
+                  $(this).removeClass('active');
+                  $('body').removeClass('active');
+                  $('#mivideo').attr('src', ''); // Detener el video
+              }
+          });
+      });
+    </script>
     <script>
       $('.hero').ripples({
        resolution: 512,
@@ -479,6 +497,8 @@
           // you can call your playlist using youtube api
       })
   </script>
+
+  
 
   </body>
 </html>
