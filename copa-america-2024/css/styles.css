@@ -2736,6 +2736,14 @@ body.active {
   .tabla {
     background-image: url("../img/fondotabla-mobile.jpg");
   }
+
+  .Carousel {
+    background-image: url("../img/fondoreels-mob.jpg"); 
+  }
+
+  .contenedorvideos {
+    background-image: url(../img/fondovideos-mob.jpg);
+} 
 } 
 
 
