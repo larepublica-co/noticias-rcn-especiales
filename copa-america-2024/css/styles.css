@@ -2736,6 +2736,14 @@ body.active {
   .tabla {
     background-image: url("../img/fondotabla-mobile.jpg");
   }
+
+  .Carousel {
+    background-image: url("../img/fondoreels-mob.jpg"); 
+  }
+
+  .contenedorvideos {
+    background-image: url("../img/fondovideos-mob.jpg"); 
+} 
 } 
 
 
@@ -2803,6 +2811,13 @@ body.active {
   #cerrar {
     right: 1%;
   }
+  .Carousel {
+    background-image: url("../img/fondoreels-desk.jpg"); 
+  }
+
+  .contenedorvideos {
+    background-image: url("../img/fondovideos-desk.jpg"); 
+} 
 }
 
 @media (min-width:1024px) {
@@ -2839,6 +2854,13 @@ body.active {
   #cerrar {
     right: 13%;
   }
+  .Carousel {
+    background-image: url("../img/fondoreels-desk.jpg"); 
+  }
+
+  .contenedorvideos {
+    background-image: url("../img/fondovideos-desk.jpg"); 
+} 
 }  
 
 
@@ -2887,6 +2909,13 @@ body.active {
   #cerrar {
     right: 20%;
   }
+  .Carousel {
+    background-image: url("../img/fondoreels-desk.jpg"); 
+  }
+
+  .contenedorvideos {
+    background-image: url("../img/fondovideos-desk.jpg"); 
+} 
 } 
 
 
@@ -2934,6 +2963,13 @@ body.active {
     margin-left: 45%;
     margin-top: -3%;
   }
+  .Carousel {
+    background-image: url("../img/fondoreels-desk.jpg"); 
+  }
+
+  .contenedorvideos {
+    background-image: url("../img/fondovideos-desk.jpg"); 
+} 
 } 
 
 
@@ -2973,6 +3009,13 @@ body.active {
   .owl-prev, .owl-prev:hover, .owl-next, .owl-next:hover {
     top: 48%;
   }
+  .Carousel {
+    background-image: url("../img/fondoreels-desk.jpg"); 
+  }
+
+  .contenedorvideos {
+    background-image: url("../img/fondovideos-desk.jpg"); 
+} 
   
 }
 
@@ -3017,6 +3060,13 @@ body.active {
     margin-left: 52%;
     margin-top: -1%;
   }
+  .Carousel {
+    background-image: url("../img/fondoreels-desk.jpg"); 
+  }
+
+  .contenedorvideos {
+    background-image: url("../img/fondovideos-desk.jpg"); 
+} 
 } 
 
 @media (max-width:767px) {
