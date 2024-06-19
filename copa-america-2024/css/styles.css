@@ -2742,7 +2742,7 @@ body.active {
   }
 
   .contenedorvideos {
-    background-image: url(../img/fondovideos-mob.jpg);
+    background-image: url("../img/fondovideos-mob.jpg"); 
 } 
 } 
 
