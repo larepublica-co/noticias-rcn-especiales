@@ -485,7 +485,7 @@ a {
 }
 
 .post-img-1 {
-  background-image: url(../img/historiconota.jpg);
+  background-image: url(../img/nestorlorenzonota.jpg);
   width: 100%;
   height: 250px;
   background-size: cover;
@@ -494,7 +494,7 @@ a {
 }
 
 .post-img-2 {
-  background-image: url(../img/recordnota.jpg);
+  background-image: url(../img/ausenciasnota.jpg);
   width: 100%;
   height: 250px;
   background-size: cover;
@@ -503,7 +503,7 @@ a {
   }
 
   .post-img-3 {
-    background-image: url(../img/danielnota.jpg);
+    background-image: url(../img/carlosantonioveleznota.jpg);
     width: 100%;
     height: 250px;
     background-size: cover;
@@ -512,7 +512,7 @@ a {
     }
 
     .post-img-4 {
-      background-image: url(../img/gustavonota.jpg);
+      background-image: url(../img/chilavernota.jpg);
       width: 100%;
       height: 250px;
       background-size: cover;
@@ -521,7 +521,7 @@ a {
       }
 
       .post-img-5 {
-        background-image: url(../img/ivanramironota.jpg);
+        background-image: url(../img/colombianocanadanota.jpg);
         width: 100%;
         height: 250px;
         background-size: cover;
@@ -530,7 +530,7 @@ a {
         }
 
         .post-img-6 {
-          background-image: url(../img/leyendasnota.jpg);
+          background-image: url(../img/messinota.jpg);
           width: 100%;
           height: 250px;
           background-size: cover;
@@ -2735,6 +2735,13 @@ body.active {
   }
   .tabla {
     background-image: url("../img/fondotabla-mobile.jpg");
+    padding-top: 30px;
+    height: 900px;
+    margin-top: 4%;
+    padding-right: 10%;
+    text-align: right;
+    background-repeat: no-repeat;
+    
   }
 
   .Carousel {
