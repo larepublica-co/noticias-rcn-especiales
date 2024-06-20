@@ -2729,27 +2729,30 @@ body.active {
 
 
 
-@media (min-width:425px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
   .hero{
     margin-top: 60px;
   }
   .tabla {
-    background-image: url("../img/fondotabla-mobile.jpg");
+    background-image: url("../img/fondotabla-mobile.jpg") !important;  
     padding-top: 30px;
     height: 900px;
     margin-top: 4%;
     padding-right: 10%;
     text-align: right;
     background-repeat: no-repeat;
+    background-attachment: initial !important;
     
   }
 
   .Carousel {
-    background-image: url("../img/fondoreels-mob.jpg"); 
+    background-image: url("../img/fondoreels-mob.jpg");
+    background-attachment: initial !important; 
   }
 
   .contenedorvideos {
-    background-image: url("../img/fondovideos-mob.jpg"); 
+    background-image: url("../img/fondovideos-mob.jpg");
+    background-attachment: initial !important; 
 } 
 } 
 
