@@ -247,7 +247,7 @@ a {
 
 /* hero */
 .hero {
-  background-image: url("../img/header-fondo__mobile.jpg");
+  background-image: url("../img/header-fondo__mobile2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1481,7 +1481,7 @@ a {
 
   
   .hero {
-    background-image: url(../img/header-fondo-1.jpg);
+    background-image: url(../img/header-fondo-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1583,7 +1583,7 @@ a {
   }
 
   .hero {
-    background-image: url(../img/header-fondo-1.jpg);
+    background-image: url(../img/header-fondo-2.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top center;
