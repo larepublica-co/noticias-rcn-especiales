@@ -488,7 +488,7 @@ a {
 }
 
 .post-img-1 {
-  background-image: url(../img/golazoluchonota.jpg);
+  background-image: url(../img/goldavinsonnota.jpg);
   width: 100%;
   height: 250px;
   background-size: cover;
@@ -497,7 +497,7 @@ a {
 }
 
 .post-img-2 {
-  background-image: url(../img/caminosnota.jpg);
+  background-image: url(../img/golazoluchonota.jpg);
   width: 100%;
   height: 250px;
   background-size: cover;
@@ -506,16 +506,16 @@ a {
   }
 
   .post-img-3 {
-    background-image: url(../img/encuestanota.jpg);
+    background-image: url(../img/caminosnota.jpg);
     width: 100%;
     height: 250px;
     background-size: cover;
     background-position: center;
     transition: .2s;
-    }
+  }
 
     .post-img-4 {
-      background-image: url(../img/posible11nota.jpg);
+      background-image: url(../img/encuestanota.jpg);
       width: 100%;
       height: 250px;
       background-size: cover;
@@ -523,23 +523,23 @@ a {
       transition: .2s;
       }
 
-      .post-img-5 {
-        background-image: url(../img/uruvsbolnota.jpg);
-        width: 100%;
-        height: 250px;
-        background-size: cover;
-        background-position: center;
-        transition: .2s;
-        }
+    .post-img-5 {
+      background-image: url(../img/posible11nota.jpg);
+      width: 100%;
+      height: 250px;
+      background-size: cover;
+      background-position: center;
+      transition: .2s;
+    }
 
-        .post-img-6 {
-          background-image: url(../img/golazousanota.jpg);
-          width: 100%;
-          height: 250px;
-          background-size: cover;
-          background-position: center;
-          transition: .2s;
-          }
+   .post-img-6 {
+     background-image: url(../img/uruvsbolnota.jpg);
+     width: 100%;
+     height: 250px;
+     background-size: cover;
+     background-position: center;
+     transition: .2s;
+    }
 
     .post {
       background: #fff;
