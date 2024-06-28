@@ -485,7 +485,7 @@ a {
 }
 
 .post-img-1 {
-  background-image: url(../img/posible11nota.jpg);
+  background-image: url(../img/encuestanota.jpg);
   width: 100%;
   height: 250px;
   background-size: cover;
@@ -494,7 +494,7 @@ a {
 }
 
 .post-img-2 {
-  background-image: url(../img/uruvsbolnota.jpg);
+  background-image: url(../img/posible11nota.jpg);
   width: 100%;
   height: 250px;
   background-size: cover;
@@ -503,7 +503,7 @@ a {
   }
 
   .post-img-3 {
-    background-image: url(../img/golazousanota.jpg);
+    background-image: url(../img/uruvsbolnota.jpg);
     width: 100%;
     height: 250px;
     background-size: cover;
@@ -512,7 +512,7 @@ a {
     }
 
     .post-img-4 {
-      background-image: url(../img/borjavsalfaronota.jpg);
+      background-image: url(../img/golazousanota.jpg);
       width: 100%;
       height: 250px;
       background-size: cover;
@@ -521,7 +521,7 @@ a {
       }
 
       .post-img-5 {
-        background-image: url(../img/furialorenzonota.jpg);
+        background-image: url(../img/borjavsalfaronota.jpg);
         width: 100%;
         height: 250px;
         background-size: cover;
@@ -530,7 +530,7 @@ a {
         }
 
         .post-img-6 {
-          background-image: url(../img/masdeungolnota.jpg);
+          background-image: url(../img/furialorenzonota.jpg);
           width: 100%;
           height: 250px;
           background-size: cover;
