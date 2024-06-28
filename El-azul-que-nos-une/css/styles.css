@@ -288,7 +288,7 @@ body {
 }
 
 .post-img-1 {
-  background-image: url(../img/estocolmonota.jpg);
+  background-image: url(../img/abrazosnota.jpg);
   width: 100%;
   height: 200px;
   background-size: cover;
@@ -297,7 +297,7 @@ body {
 }
 
 .post-img-2 {
-  background-image: url(../img/reencuentronota.jpg);
+  background-image: url(../img/despedidakielnota.jpg);
   width: 100%;
   height: 200px;
   background-size: cover;
@@ -306,7 +306,7 @@ body {
   }
 
   .post-img-3 {
-    background-image: url(../img/kielnota.jpg);
+    background-image: url(../img/regalonota.jpg);
     width: 100%;
     height: 200px;
     background-size: cover;
