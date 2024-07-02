@@ -247,7 +247,7 @@ a {
 
 /* hero */
 .hero {
-  background-image: url("../img/header-fondo__mobile2.jpg");
+  background-image: url("../img/header-fondo__mobile3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -485,7 +485,7 @@ a {
 }
 
 .post-img-1 {
-  background-image: url(../img/colombiagoleanota.jpg);
+  background-image: url(../img/formacionbrasilnota.jpg);
   width: 100%;
   height: 250px;
   background-size: cover;
@@ -494,7 +494,7 @@ a {
 }
 
 .post-img-2 {
-  background-image: url(../img/goldavinsonnota.jpg);
+  background-image: url(../img/pensandourunota.jpg);
   width: 100%;
   height: 250px;
   background-size: cover;
@@ -503,7 +503,7 @@ a {
   }
 
   .post-img-3 {
-    background-image: url(../img/golazoluchonota.jpg);
+    background-image: url(../img/sobrevivientesnota.jpg);
     width: 100%;
     height: 250px;
     background-size: cover;
@@ -512,7 +512,7 @@ a {
   }
 
     .post-img-4 {
-      background-image: url(../img/caminosnota.jpg);
+      background-image: url(../img/dondeycuandonota.jpg);
       width: 100%;
       height: 250px;
       background-size: cover;
@@ -521,7 +521,7 @@ a {
       }
 
     .post-img-5 {
-      background-image: url(../img/encuestanota.jpg);
+      background-image: url(../img/nuevotriunfonota.jpg);
       width: 100%;
       height: 250px;
       background-size: cover;
@@ -530,7 +530,7 @@ a {
     }
 
    .post-img-6 {
-     background-image: url(../img/posible11nota.jpg);
+     background-image: url(../img/iacolvsbranota.jpg);
      width: 100%;
      height: 250px;
      background-size: cover;
@@ -1481,7 +1481,7 @@ a {
 
   
   .hero {
-    background-image: url(../img/header-fondo-2.jpg);
+    background-image: url(../img/header-fondo-3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1583,7 +1583,7 @@ a {
   }
 
   .hero {
-    background-image: url(../img/header-fondo-2.jpg);
+    background-image: url(../img/header-fondo-3.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top center;
