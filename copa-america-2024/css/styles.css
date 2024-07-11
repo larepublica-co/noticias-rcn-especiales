@@ -247,7 +247,7 @@ a {
 
 /* hero */
 .hero {
-  background-image: url("../img/minaminmobile.jpg");
+  background-image: url("../img/header-fondo__mobile5.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1484,7 +1484,7 @@ a {
 
   
   .hero {
-    background-image: url(../img/minamindesk.jpg);
+    background-image: url(../img/header-fondo-5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1586,7 +1586,7 @@ a {
   }
 
   .hero {
-    background-image: url(../img/minamindesk.jpg);
+    background-image: url(../img/header-fondo-5.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top center;
