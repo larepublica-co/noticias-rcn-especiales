@@ -227,7 +227,7 @@ a {
   width: 90%;
   overflow: hidden;
   margin: 0 auto;
-  padding-top: 10%;
+  padding-top: 13%;
 }
 .footer {
   background-color: #072146;
@@ -247,7 +247,7 @@ a {
 
 /* hero */
 .hero {
-  background-image: url("../img/header-fondo__mobile4.jpg");
+  background-image: url("../img/minaminmobile.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -295,15 +295,18 @@ a {
 
 .hero__paragraph {
   color: var(--paragraph--texts);
-  font-weight: 800;
+  font-weight: 500;
   margin-top: 1.1em;
   margin-bottom: 1.5625em;
-  font-size: 25px;
+  font-size: 30px;
   text-align: left;
+  text-shadow: 2px 2px 8px black;
+  cursor: pointer;
 }
 .hero__paragraph:first-of-type {
   margin-bottom: 1.2em;
 }
+
 
 .hero__img {
   display: block;
@@ -485,7 +488,7 @@ a {
 }
 
 .post-img-1 {
-  background-image: url(../img/encuesta3nota.jpg);
+  background-image: url(../img/suplentenota.jpg);
   width: 100%;
   height: 250px;
   background-size: cover;
@@ -494,7 +497,7 @@ a {
 }
 
 .post-img-2 {
-  background-image: url(../img/banderazovallenatonota.jpg);
+  background-image: url(../img/titularcolnota.jpg);
   width: 100%;
   height: 250px;
   background-size: cover;
@@ -503,7 +506,7 @@ a {
   }
 
   .post-img-3 {
-    background-image: url(../img/pechifriosnota.jpg);
+    background-image: url(../img/jamespielnota.jpg);
     width: 100%;
     height: 250px;
     background-size: cover;
@@ -512,7 +515,7 @@ a {
   }
 
     .post-img-4 {
-      background-image: url(../img/primerafinalnota.jpg);
+      background-image: url(../img/naironota.jpg);
       width: 100%;
       height: 250px;
       background-size: cover;
@@ -521,7 +524,7 @@ a {
       }
 
     .post-img-5 {
-      background-image: url(../img/apuestasnota.jpg);
+      background-image: url(../img/pechifriosnota.jpg);
       width: 100%;
       height: 250px;
       background-size: cover;
@@ -530,7 +533,7 @@ a {
     }
 
    .post-img-6 {
-     background-image: url(../img/escalonilorenzonota.jpg);
+     background-image: url(../img/primerafinalnota.jpg);
      width: 100%;
      height: 250px;
      background-size: cover;
@@ -1481,7 +1484,7 @@ a {
 
   
   .hero {
-    background-image: url(../img/header-fondo-4.jpg);
+    background-image: url(../img/minamindesk.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1583,7 +1586,7 @@ a {
   }
 
   .hero {
-    background-image: url(../img/header-fondo-4.jpg);
+    background-image: url(../img/minamindesk.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top center;
@@ -1607,10 +1610,10 @@ a {
   .hero__info {
     width: 78%;
     margin-top: 10%;
-    margin-left: 34%;
+    margin-left: 25%;
   }
   .hero__figure {
-    width: 58%;
+    width: 65%;
     margin-left: auto;
   }
 
@@ -2754,6 +2757,9 @@ body.active {
     background-image: url("../img/fondovideos-mob.jpg");
     background-attachment: initial !important; 
 } 
+.container {
+  padding-top: 20%;
+}
 } 
 
 
