@@ -247,7 +247,7 @@ a {
 
 /* hero */
 .hero {
-  background-image: url("../img/header-fondo__mobile6.jpg");
+  background-image: url("../img/header-fondo__mobile7.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -485,7 +485,7 @@ a {
 }
 
 .post-img-1 {
-  background-image: url(../img/medallanota.jpg);
+  background-image: url(../img/civiconota.jpg);
   width: 100%;
   height: 250px;
   background-size: cover;
@@ -494,7 +494,7 @@ a {
 }
 
 .post-img-2 {
-  background-image: url(../img/jamescimanota.jpg);
+  background-image: url(../img/coincidenciasnota.jpg);
   width: 100%;
   height: 250px;
   background-size: cover;
@@ -503,7 +503,7 @@ a {
   }
 
   .post-img-3 {
-    background-image: url(../img/resumencolvsurunota.jpg);
+    background-image: url(../img/mensajedibunota.jpg);
     width: 100%;
     height: 250px;
     background-size: cover;
@@ -512,7 +512,7 @@ a {
   }
 
     .post-img-4 {
-      background-image: url(../img/invicto28nota.jpg);
+      background-image: url(../img/elogiomessinota.jpg);
       width: 100%;
       height: 250px;
       background-size: cover;
@@ -521,7 +521,7 @@ a {
       }
 
     .post-img-5 {
-      background-image: url(../img/trestecnicosnota.jpg);
+      background-image: url(../img/cumplenota.jpg);
       width: 100%;
       height: 250px;
       background-size: cover;
@@ -530,7 +530,7 @@ a {
     }
 
    .post-img-6 {
-     background-image: url(../img/con10nota.jpg);
+     background-image: url(../img/racismonota.jpg);
      width: 100%;
      height: 250px;
      background-size: cover;
@@ -1487,7 +1487,7 @@ a {
 
   
   .hero {
-    background-image: url(../img/header-fondo-6.jpg);
+    background-image: url(../img/header-fondo-7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1589,7 +1589,7 @@ a {
   }
 
   .hero {
-    background-image: url(../img/header-fondo-6.jpg);
+    background-image: url(../img/header-fondo-7.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top center;
