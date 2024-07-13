@@ -625,7 +625,6 @@ a {
 
 
 
-
     /* podcast*/
 
     .podcast_title {
@@ -752,6 +751,20 @@ a {
   
   text-align: center;
 }
+
+.energia__title2 {
+  color: #222222;
+  font-size: 1.8rem;
+  margin-top: -1em;
+  font-weight: 900;
+  margin-top: 0.625rem;
+  line-height: 1;
+  width: 79%;
+  margin-bottom: 30px;
+  
+  text-align: center;
+}
+
 .energia__paragraph {
   color: var(--paragraph--texts);
   font-weight: 500;
