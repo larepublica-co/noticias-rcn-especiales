@@ -485,7 +485,7 @@ a {
 }
 
 .post-img-1 {
-  background-image: url(../img/mejorjugadornota.jpg);
+  background-image: url(../img/terceronota.jpg);
   width: 100%;
   height: 250px;
   background-size: cover;
@@ -494,7 +494,7 @@ a {
 }
 
 .post-img-2 {
-  background-image: url(../img/yaleganonota.jpg);
+  background-image: url(../img/dibu2nota.jpg);
   width: 100%;
   height: 250px;
   background-size: cover;
@@ -503,7 +503,7 @@ a {
   }
 
   .post-img-3 {
-    background-image: url(../img/apuestasfinalnota.jpg);
+    background-image: url(../img/mejorjugadornota.jpg);
     width: 100%;
     height: 250px;
     background-size: cover;
@@ -512,7 +512,7 @@ a {
   }
 
     .post-img-4 {
-      background-image: url(../img/civiconota.jpg);
+      background-image: url(../img/yaleganonota.jpg);
       width: 100%;
       height: 250px;
       background-size: cover;
@@ -521,7 +521,7 @@ a {
       }
 
     .post-img-5 {
-      background-image: url(../img/coincidenciasnota.jpg);
+      background-image: url(../img/apuestasfinalnota.jpg);
       width: 100%;
       height: 250px;
       background-size: cover;
@@ -530,7 +530,7 @@ a {
     }
 
    .post-img-6 {
-     background-image: url(../img/mensajedibunota.jpg);
+     background-image: url(../img/civiconota.jpg);
      width: 100%;
      height: 250px;
      background-size: cover;
