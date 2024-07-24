@@ -168,7 +168,7 @@ body {
   --text-color-inverse: white;
   --text-color: black;
   --navbar-shallow-color: #e5e5e5;
-  --menu-mobile-background-color: #2e56ab;
+  --menu-mobile-background-color: #460079;
 }
 
 html {
@@ -764,14 +764,15 @@ a {
   color: #fff;
 }
 
-.energia__title {
-  color: var(--title--texs);
+.contenedordescarga .energia__title {
+  color: #fff;
   font-size: 1.8rem;
   margin-top: -1em;
-  font-weight: 900;
+  font-weight: 700;
   margin-top: 0.625rem;
   line-height: 1;
   width: 79%;
+  padding-top: 40px;
   
   text-align: center;
 }
@@ -1231,12 +1232,11 @@ a {
 
 .parrafo-pdf{
   font-family: Montserrat, sans-serif;
-  line-height: 1.5;
-  color: #fff;
+  color: #222222;
   text-decoration: none;
   text-align: center;
   padding-top: 40px;
-  font-size: 14px;
+  font-size: 16px;
   width: 70%;
   
 }
@@ -1258,12 +1258,12 @@ a {
 }
 
 .contenedorbtn {
-  text-align: center
+  text-align: center;
 }
 
 .btn-pdf {
   display: inline-block;
-  background-color: #f400a1;
+  background-color: #e61722;
   color: #fff;
   text-decoration: none;
   padding: 13px 13px;
@@ -1274,7 +1274,7 @@ a {
 }
 
 .btn-pdf:hover {
-  background-color: #ff74d0;
+  background-color: #ff454f;
   box-shadow: 0 1px 14px 2px rgba(0, 0, 0, .15);
 }
 
@@ -1295,6 +1295,12 @@ a {
   padding-top: 20px;
   padding-bottom: 23px;
   width: 70%;
+}
+
+.contenedordescarga {
+  background-color: #460079;
+  height: 180px;
+  
 }
 
 
