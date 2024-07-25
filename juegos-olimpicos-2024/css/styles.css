@@ -1303,6 +1303,12 @@ a {
   
 }
 
+@media (max-width: 600px) {
+  .contenedordescarga {
+    height: 260px;
+  }
+}
+
 
 @media (min-width: 375px) {
   /* header */
