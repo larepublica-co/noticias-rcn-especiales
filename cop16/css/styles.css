@@ -1417,6 +1417,11 @@ a {
     height: 315px;
   }
 
+  .countdown-container {
+   top: 90%;
+
+  }
+
 
 
   /* agua */
@@ -1502,6 +1507,11 @@ a {
     max-width: 266px;
     flex: 1;
   }
+
+  .countdown-container {
+    top: 52%;
+ 
+   }
 
   
   .hero {
@@ -1605,6 +1615,11 @@ a {
     margin: 0 auto;
     color: #fff;
   }
+
+  .countdown-container {
+    top: 120%;
+ 
+   }
 
   .hero {
     background-image: url(../img/principalcop1.jpg);
@@ -2143,6 +2158,11 @@ a {
     background-repeat: no-repeat;
     background-size: contain;
   }
+
+  .countdown-container {
+    top: 120%;
+ 
+   }
   .agua__line {
     width: 100%;
     height: 50px;
@@ -2217,6 +2237,11 @@ a {
 
     height: 68px;
   }
+
+  .countdown-container {
+    top: 120%;
+ 
+   }
 
   .video__line::after {
     background: url("../img/Linea-6-4k.png");
@@ -2927,6 +2952,11 @@ body.active {
     height: 356px;
   }
 
+  .countdown-container {
+    top: 120%;
+ 
+   }
+
   .tabla {
     background-image: url("../img/fondotabla-tablet.jpg");
   }
@@ -2975,6 +3005,11 @@ body.active {
         background-size: 115%;
     }
 }
+
+.countdown-container {
+  top: 120%;
+
+ }
 
   .container_fixture {
     margin-top: -155px;
@@ -3029,6 +3064,11 @@ body.active {
         background-size: 105%;
     }
 }
+
+.countdown-container {
+  top: 120%;
+
+ }
   .container_fixture {
     margin-top: -155px;
   }
@@ -3076,6 +3116,11 @@ body.active {
         background-size: 105%;
     }
 }
+
+.countdown-container {
+  top: 100%;
+
+ }
 
   .container_fixture {
     margin-top: -160px;
