@@ -611,7 +611,7 @@ a {
     }
 
     .Post-body .Post-link:hover {
-      background: #fc2929;
+      background: #01348d;
       box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, .2);
       transform: translateY(-2px);
     }
@@ -3133,7 +3133,7 @@ body.active {
 /* Estilos para la cuenta regresiva */
 .countdown-container {
   position: absolute;
-  top: 75%;
+  top: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10; /* Para asegurarnos que esté por debajo del modal */
@@ -3172,6 +3172,7 @@ body.active {
     width: 60px;
     height: 60px;
     font-size: 14px;
+    
   }
 
   .time-box span {
