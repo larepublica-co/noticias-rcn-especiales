@@ -3178,7 +3178,7 @@ body.active {
 /* Estilos para la cuenta regresiva */
 .countdown-container {
   position: absolute;
-  top: 100%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10; /* Para asegurarnos que esté por debajo del modal */
