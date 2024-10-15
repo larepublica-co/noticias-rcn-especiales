@@ -491,7 +491,7 @@ a {
 }
 
 .post-img-1 {
-  background-image: url(../img/zonaverde.jpg);
+  background-image: url(../img/avion.jpg);
   width: 100%;
   height: 250px;
   background-size: cover;
@@ -500,7 +500,7 @@ a {
 }
 
 .post-img-2 {
-  background-image: url(../img/ciberseguridad.jpg);
+  background-image: url(../img/agua.jpg);
   width: 100%;
   height: 250px;
   background-size: cover;
@@ -509,7 +509,7 @@ a {
   }
 
   .post-img-3 {
-    background-image: url(../img/militares.jpg);
+    background-image: url(../img/blindado.jpg);
     width: 100%;
     height: 250px;
     background-size: cover;
@@ -518,7 +518,7 @@ a {
   }
 
     .post-img-4 {
-      background-image: url(../img/paraido2.jpg);
+      background-image: url(../img/casa.jpg);
       width: 100%;
       height: 250px;
       background-size: cover;
@@ -527,7 +527,7 @@ a {
       }
 
     .post-img-5 {
-      background-image: url(../img/autoridades.jpg);
+      background-image: url(../img/zonaverde.jpg);
       width: 100%;
       height: 250px;
       background-size: cover;
@@ -536,7 +536,7 @@ a {
     }
 
    .post-img-6 {
-     background-image: url(../img/nombrealto.jpg);
+     background-image: url(../img/ciberseguridad.jpg);
      width: 100%;
      height: 250px;
      background-size: cover;
