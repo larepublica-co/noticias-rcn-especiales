@@ -491,7 +491,7 @@ a {
 }
 
 .post-img-1 {
-  background-image: url(../img/avion.jpg);
+  background-image: url(../img/escultura.jpg);
   width: 100%;
   height: 250px;
   background-size: cover;
@@ -500,7 +500,7 @@ a {
 }
 
 .post-img-2 {
-  background-image: url(../img/agua.jpg);
+  background-image: url(../img/delegaciones.jpg);
   width: 100%;
   height: 250px;
   background-size: cover;
@@ -509,7 +509,7 @@ a {
   }
 
   .post-img-3 {
-    background-image: url(../img/blindado.jpg);
+    background-image: url(../img/ecobarrio.jpg);
     width: 100%;
     height: 250px;
     background-size: cover;
@@ -518,7 +518,7 @@ a {
   }
 
     .post-img-4 {
-      background-image: url(../img/casa.jpg);
+      background-image: url(../img/avion.jpg);
       width: 100%;
       height: 250px;
       background-size: cover;
@@ -527,7 +527,7 @@ a {
       }
 
     .post-img-5 {
-      background-image: url(../img/zonaverde.jpg);
+      background-image: url(../img/agua.jpg);
       width: 100%;
       height: 250px;
       background-size: cover;
@@ -536,7 +536,7 @@ a {
     }
 
    .post-img-6 {
-     background-image: url(../img/ciberseguridad.jpg);
+     background-image: url(../img/blindado.jpg);
      width: 100%;
      height: 250px;
      background-size: cover;
@@ -1070,7 +1070,7 @@ a {
 
 
 .tiktok {
-  background-image: url("../img/fondoreels-mob.jpg");
+  background-color: #0091BF;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -2500,7 +2500,7 @@ a {
 }
 
 .Carousel {
-  background-image: url("../img/fondoreels-desk.jpg");
+  background-color: #0091BF;
   background-attachment: fixed;
   width: 100%;
   padding-bottom: 6%;
@@ -2576,7 +2576,7 @@ a {
 
 .slick-arrow{
     border-radius: 30px;
-    background-color: #ff2525;
+    background-color: #79BA5A;
     position: absolute;
     z-index: 4;
     width: 48px;
@@ -2797,7 +2797,7 @@ body.active {
   }
 
   .Carousel {
-    background-image: url("../img/fondoreels-mob.jpg");
+    background-color: #0091BF;
     background-attachment: initial !important; 
   }
 
@@ -2877,7 +2877,7 @@ body.active {
     right: 1%;
   }
   .Carousel {
-    background-image: url("../img/fondoreels-desk.jpg"); 
+    background-color: #0091BF; 
   }
 
   .contenedorvideos {
@@ -2920,7 +2920,7 @@ body.active {
     right: 13%;
   }
   .Carousel {
-    background-image: url("../img/fondoreels-desk.jpg"); 
+    background-color: #0091BF;
   }
 
   .contenedorvideos {
@@ -2980,7 +2980,7 @@ body.active {
     right: 20%;
   }
   .Carousel {
-    background-image: url("../img/fondoreels-desk.jpg"); 
+    background-color: #0091BF;
   }
 
   .contenedorvideos {
@@ -3039,7 +3039,7 @@ body.active {
     margin-top: -3%;
   }
   .Carousel {
-    background-image: url("../img/fondoreels-desk.jpg"); 
+    background-color: #0091BF;
   }
 
   .contenedorvideos {
@@ -3090,7 +3090,7 @@ body.active {
     top: 48%;
   }
   .Carousel {
-    background-image: url("../img/fondoreels-desk.jpg"); 
+    background-color: #0091BF;
   }
 
   .contenedorvideos {
@@ -3146,7 +3146,7 @@ body.active {
     margin-top: -1%;
   }
   .Carousel {
-    background-image: url("../img/fondoreels-desk.jpg"); 
+    background-color: #0091BF;
   }
 
   .contenedorvideos {
