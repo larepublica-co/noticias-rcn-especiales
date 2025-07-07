@@ -2551,7 +2551,7 @@ form textarea:required:valid {
 
 @media only screen and (min-width: 1200px) {
   .main {
-    padding-top: 0;
+    padding-top: 14rem;
   }
 }
 
@@ -7159,7 +7159,7 @@ form textarea:required:valid {
 
 @media (min-width: 1024px) {
   .main__intro {
-    padding-top: 10rem; /* Ajusta según necesidad */
+    padding-top: 0rem; /* Ajusta según necesidad */
   }
 }
 
